@@ -1,5 +1,6 @@
 {
   "name": "umi-plugin-music-paas",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "description": "",
   "authors": {
@@ -59,6 +60,7 @@
   ],
   "dependencies": {
     "@ice/stark-app": "^1.2.0",
-    "fs-extra": "^9.0.1"
+    "fs-extra": "^9.0.1",
+    "yargs": "^16.2.0"
   }
 }
