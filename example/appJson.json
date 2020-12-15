@@ -1,0 +1,18 @@
+{
+  "files": {
+    "umi.css": "/umi.f2b06ab4.css",
+    "umi.js": "/umi.7c7894ac.js",
+    "umi.js.map": "/umi.7c7894ac.js.map",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "umi.f2b06ab4.css",
+    "umi.7c7894ac.js"
+  ],
+  "routes": [
+    {
+      "path": "/undefined",
+      "component": "@/pages/index.jsx"
+    }
+  ]
+}
