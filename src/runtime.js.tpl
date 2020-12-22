@@ -11,10 +11,11 @@ export function modifyClientRenderOpts(oldOpts) {
   return oldOpts;
 }
 
+let basename = getBasename().replace(/\/$/, '');
 const modifyRoute = routes => {
   return routes.map(route => {
     if (route.path.startsWith('/')) {
-      route.path = `${getBasename()}${route.path.replace(/^\//, '')}`;
+      route.path = `${basename}${route.path}`;
     }
     if (route.routes) {
       route.routes = modifyRoute(route.routes);
