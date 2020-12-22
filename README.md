@@ -31,7 +31,17 @@ export default {
 
 ## Options
 
-TODO
+```js
+export default {
+  paas: {
+    isSubApp: true, // 是否是子应用， 如果是子应用将会注入ice stark的代码
+    needModifyRoutes: true, // 是否需要修改基准路由路径(basename)
+  },
+  plugins: [
+    ['umi-plugin-music-paas'],
+  ],
+}
+```
 
 ## LICENSE
 
